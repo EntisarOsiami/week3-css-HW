@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+    color: #000;
+    background-color: #f1f1f1;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  
+}
+
+.top-right-buttons {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.top-btn {
+    background-color: white;
+    color: black;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.top-btn:hover {
+    background-color: #ddd;
+}
+
+
+.header-section {
+    padding: 3rem 1rem 2rem 1rem;
+    margin: 0 auto;
+
+    max-width: 1400px;
+    text-align: center;
+}
+
+.author-name {
+    background-color: black;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+
+}
+
+.item1,
+.item4 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    text-align: justify;
+    padding: 1rem;
+}
+
+.story h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.story span {
+    color: #666;
+}
+
+.more-info {
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.read-more,
+input[type="button"] {
+    padding: 0.5rem 1rem;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.read-more:hover,
+input[type="button"]:hover {
+    background-color: #ddd;
+}
+
+.read-more:hover {
+    transform: scale(1.05);
+}
+
+.read-more {
+    transition: all 0.3s ease;
+}
+
+
+.comments,
+.Comments {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    font-weight: bold;
+}
+
+
+.Comments button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 1.7em;
+    height: 1.7em;
+    cursor: pointer;
+}
+
+.comments button {
+    background-color: black;
+    color: white;
+    border: none;
+    width: 1.7em;
+    height: 1.7em;
+    cursor: pointer;
+}
+
+
+.story2-text {
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.story2-text h5 {
+    font-size: 1.25rem;
+}
+
+
+
+.item3 img {
+    width: 50px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.Popular-header {
+    background-color: #dcd9d9;
+    padding: 1rem;
+    font-weight: bold;
+
+}
+
+.Posts {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.post-title {
+    flex: 1;
+}
+
+.tags {
+    background-color: #dcd9d9;
+    padding: 8px 16px;
+
+}
+
+
+.tags p {
+    font-size: 20px;
+    margin-bottom: 1rem;
+
+}
+
+.tag {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 1em;
+
+}
+
+.tag-style,
+.tag-style-active {
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.tag-style-active {
+    background-color: black;
+    color: white;
+}
+
+.footer-section {
+    background-color: #616161;
+    /* dark gray background */
+    color: white;
+    /* white text */
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+}
+
+.footer-nav {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.footer-credit {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+
+@media (max-width: 900px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Login page style starts here*/
+.login-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+.login-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+.login-card h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.login-card input[type="text"],
+.login-card input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.login-card input[type="submit"] {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-card input[type="submit"]:hover {
+    background-color: #333;
+}
+
+.login-card p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.login-card a {
+    color: black;
+    text-decoration: underline;
+}
+/* Login Page Style End */
+
+/* Register page styles starts here*/
+
+.register-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+.register-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    text-align: center;
+}
+
+.register-card h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.register-card label {
+    display: block;
+    text-align: left;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+.register-card input[type="text"],
+.register-card input[type="email"],
+.register-card input[type="tel"],
+.register-card input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.register-card input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.register-card input[type="submit"] {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.register-card input[type="submit"]:hover {
+    background-color: #333;
+}
+
+.register-card p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.register-card a {
+    color: black;
+    text-decoration: underline;
+    font-size: 0.9rem;
+}
+
+.terms-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.terms-container input[type="checkbox"] {
+    margin-right: 0.5rem;
+    width: 18px;
+    height: 18px;
+}
+
+/* Register Page Styles End */
+
+.close-button {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.close-button:hover {
+    color: red;
+}
