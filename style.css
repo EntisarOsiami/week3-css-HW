@@ -11,14 +11,17 @@ body {
   color: #000;
   background-color: #f1f1f1;
 }
- .img-logo .logo {
-  width: 20px;
+.img-logo .logo {
+  width: 40px;
   height: auto;
   display: block;
+  padding: 0.5rem;
 }
 .nav-mobile {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
 
 }
 
