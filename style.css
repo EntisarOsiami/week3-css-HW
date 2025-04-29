@@ -26,6 +26,7 @@ img {
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  
 }
 
 .top-right-buttons {
@@ -124,26 +125,19 @@ img {
   padding: 1rem;
 }
 
-.read-more,
-input[type="button"] {
-  padding: 0.5rem 1rem;
+.read-more {
+  padding: 0.7rem 1rem;
   background-color: white;
   border: 1px solid black;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: all 0.3s ease;
 }
 
 .read-more:hover,
+.top-btn:hover,
 input[type="button"]:hover {
   background-color: #ddd;
-}
-
-.read-more:hover {
   transform: scale(1.05);
-}
-
-.read-more {
-  transition: all 0.3s ease;
 }
 
 .comments,
@@ -173,15 +167,29 @@ input[type="button"]:hover {
   cursor: pointer;
 }
 
-.story2-text {
-  margin-top: 1rem;
+.item3 {
+  height: fit-content;
+  
+}
+
+.tag {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.625rem; 
   padding: 1rem;
 }
 
 .story2-text h5 {
   font-size: 1.25rem;
   font-weight: bold;
-  margin-bottom: 1em;
+  padding:0.7rem;
+  margin-bottom: 1rem; 
+}
+
+.story2-text p {
+  font-size: 1rem;
+  padding:0.7rem;
+  margin-bottom: 1rem; 
 }
 
 .item3 img {
@@ -190,30 +198,30 @@ input[type="button"]:hover {
   border-radius: 4px;
 }
 
-.Popular-header {
+.popular-header {
   background-color: #dcd9d9;
   padding: 1rem;
   font-weight: bold;
   margin-bottom: 0;
 }
 
-.Posts {
+.posts {
   display: flex;
-  align-items: center;
+  align-items: start;
   gap: 1rem;
   padding: 1rem;
   border-bottom: 1px solid #eee;
 }
 
-.Posts:hover {
+.posts:hover {
   background-color: #f1f1f1;
   transform: scale(1.02);
   transition: all 0.3s ease;
 }
 
-.Posts:last-child {
+.posts:last-child {
   border-bottom: none;
-  padding-bottom: 0;
+  padding-bottom: 1em;
 }
 
 .post-title {
@@ -462,3 +470,4 @@ input[type="button"]:hover {
 .close-button:hover {
   color: red;
 }
+
