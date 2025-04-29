@@ -12,14 +12,14 @@ body {
   background-color: #f1f1f1;
 }
  .img-logo .logo {
-  width: 30px;
+  width: 20px;
   height: auto;
   display: block;
 }
 .nav-mobile {
   display: flex;
   justify-content: space-between;
-  
+
 }
 
 h1 {
@@ -380,11 +380,11 @@ input[type="button"]:hover {
 
 /* Register page styles starts here*/
 
+
 .register-page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
   background-color: #f1f1f1;
+
 }
 
 .register-card {
@@ -392,8 +392,6 @@ input[type="button"]:hover {
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  max-width: 450px;
-  text-align: center;
 }
 
 .register-card h2 {
@@ -477,6 +475,8 @@ input[type="button"]:hover {
 .register-card-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .close-button {
   align-items: center;
