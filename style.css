@@ -11,16 +11,15 @@ body {
   color: #000;
   background-color: #f1f1f1;
 }
-.logo{
+.logo {
   width: 30px;
   height: auto;
   display: block;
 }
-.nav-mobile{
+.nav-mobile {
   display: flex;
   justify-content: space-between;
 }
-
 
 h1 {
   font-size: 36px;
@@ -528,7 +527,7 @@ input[type="button"]:hover {
     margin-right: 0;
   }
 
-   .nav-mobile nav ul {
+  .nav-mobile nav ul {
     display: block;
   }
 
