@@ -91,6 +91,13 @@ img {
     gap: 1rem;
 }
 
+.item1 img,
+.item4 img {
+    max-height: 300px;
+    object-fit:cover;
+    width: 100%;
+}
+
 .story {
     display: flex;
     flex-direction: column;
@@ -176,6 +183,8 @@ input[type="button"]:hover {
 
 .story2-text h5 {
     font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1em;
 }
 
 
